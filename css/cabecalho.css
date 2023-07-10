@@ -1,0 +1,54 @@
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalhoImagem {
+    width: 130px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.cabecalhoMenu {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalhoMenu div {
+    display: flex;
+    gap: 10px;
+}
+
+.cabecalhoMenuItem {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.cabecalhoMenuItemSeta {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+    width: 16px;
+    height: 8px;
+    margin-top: 6px;
+}
+
+.cabecalhoBotao {
+    padding: 8px 25px;
+    border-radius: 18px;
+    border: 4px solid #12701B;
+    background: rgba(217, 217, 217, 0.00);
+    color: #5CD059;
+    text-align: center;
+    font-size: 28px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 548;
+    line-height: normal;
+}
